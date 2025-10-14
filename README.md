@@ -39,7 +39,7 @@ O jogador controla Garby, que pode se mover, pular sobre plataformas e evitar ob
 
 🤖 1. Objetivo Principal: Coletar lixo espalhado pelos níveis. O jogador deve acumular 10 lixos para passar de fase. 
 🤖 2. Progressão de Níveis: Os níveis introduzem gradualmente novas mecânicas e obstáculos:   
-Nível 1: (Tutorial): Coleta de caixas de suco, familiarizando o jogador com os controles. 
+Nível 1 (Tutorial): Coleta de caixas de suco, familiarizando o jogador com os controles. 
 Nível 2: Introdução dos primeiros obstáculos (espinhos) enquanto coleta latinhas.    
 Nível 3: Adição de plataformas que se desmancham/caem, exigindo mais precisão nos pulos.   
 Nível 4: Um nivel mais dificil para testar as habilidades desviando dos espinhos.
