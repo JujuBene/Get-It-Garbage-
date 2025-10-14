@@ -1,7 +1,7 @@
 <p align="center">
 <img 
     src="./assets/Capa.png"
-    width="300"
+    width="800"
 />
 
 </p>
