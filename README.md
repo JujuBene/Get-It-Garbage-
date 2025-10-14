@@ -38,13 +38,13 @@ O processo de desenvolvimento envolveu a concepção da ideia, design de arte e 
 O jogador controla Garby, que pode se mover, pular sobre plataformas e evitar obstáculos. A progressão dos níveis é gradual, desafiando as habilidades do jogador.
 
 🤖 1. Objetivo Principal: Coletar lixo espalhado pelos níveis. O jogador deve acumular 10 lixos para passar de fase. 
-🤖 2. Progressão de Níveis: Os níveis introduzem gradualmente novas mecânicas e obstáculos: *   
-Nível 1 (Tutorial): Coleta de caixas de suco, familiarizando o jogador com os controles. *   
-Nível 2: Introdução dos primeiros obstáculos (espinhos) enquanto coleta latinhas. *   
-Nível 3: Adição de plataformas que se desmancham/caem, exigindo mais precisão nos pulos. *  
-Nível 4: Um nivel mais dificil para testar as habilidades desviando dos espinhos.*
-Nível 5: Introdução de serras móveis (que se movem da direita para a esquerda). *
-Nível 6: O nível mais dificil do jogo sendo o ultimo, com a junção das serras móveis e espinhos menores para maior dificuldade. *
+🤖 2. Progressão de Níveis: Os níveis introduzem gradualmente novas mecânicas e obstáculos:   
+Nível 1: (Tutorial): Coleta de caixas de suco, familiarizando o jogador com os controles. 
+Nível 2: Introdução dos primeiros obstáculos (espinhos) enquanto coleta latinhas.    
+Nível 3: Adição de plataformas que se desmancham/caem, exigindo mais precisão nos pulos.   
+Nível 4: Um nivel mais dificil para testar as habilidades desviando dos espinhos.
+Nível 5: Introdução de serras móveis (que se movem da direita para a esquerda). 
+Nível 6: O nível mais dificil do jogo sendo o ultimo, com a junção das serras móveis e espinhos menores para maior dificuldade. 
 🤖 3. Fim de Jogo: A tela de Fim de Jogo é exibida se o personagem colidir com espinhos ou serras. Após completar todos os níveis, o jogador é recompensado com uma tela de conclusão.
 
 
