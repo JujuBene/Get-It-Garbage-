@@ -5,41 +5,48 @@
 />
 
 
-<div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
-</div>
-
-# Projeto Podcast Gerado por I.A.s
+# Projeto Jogo 2D: Get it Garbage
 
 
- > ℹ️ **NOTE:** Este documento foi criado a partir do roteiro do Episódio 1 — "O que é, afinal, a IA Generativa?" — e estrutura o projeto para reprodução automática usando ferramentas de IA.
+ > ℹ️ **NOTE:** Este documento descreve o processo de desenvolvimento do jogo "Get it Garbage", desde a concepção da ideia até a implementação final, detalhando aspectos de design, ferramentas utilizadas e desafios enfrentados.
 
-Projeto com o objetivo de criar um episódio piloto de podcast (≈5 minutos) totalmente gerado com auxílio de IA, usando uma esteira de prompts para automatizar as etapas criativas: roteiro, voz, capa e edição.
+Projeto com o objetivo de criar um jogo 2D de plataforma (em Unity), onde o jogador assume o controle da robô Garby, inspirada na personagem Eva do filme Wall-E. A missão é coletar lixo em um mundo devastado pela poluição e avanços tecnológicos descontrolados, enfrentando desafios para restaurar o ambiente. O gameplay foi projetado para ser simples e intuitivo, visando um público amplo.
 
 
 ## 💻 Tecnologias utilizadas no projeto
 
-- [ChatGPT](https://chat.openai.com/) 
-- [Gemini](https://gemini.google.com/?hl=pt-BR)
-- [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
+- Engine: Unity, uma das engines mais populares e com vasto suporte a diferentes plataformas.
+- Linguagem de Programação: C#, escolhida por sua compatibilidade com a Unity e facilidade no uso para manipulação de objetos e eventos.
+- Design Gráfico (Sprites): Piskelapp, utilizado para a criação do sprite da personagem Garby (inspirada no Google) e alguns objetos coletáveis e obstáculos, garantindo consistência visual.
+- Design Gráfico (Backgrounds): Copilot Design, utilizado para desenvolver as imagens de background que retratam o mundo devastado, criando uma atmosfera sombria e imersiva.
+- Design Gráfico (Tilesets): Pack "Pixel Adventure 1" adquirido na loja da Unity, escolhido pela qualidade e compatibilidade com o estilo visual.
+- Áudio/Trilha Sonora (OST): Suno, utilizado para selecionar músicas com estilo 16-bit, downtempo, slow e ethereal para complementar a atmosfera do jogo.
 
 
 ## ✨ Como foi feito ?
 
-- Roteiro gerado via ChatGPT: estrutura de abertura, diálogo entre dois apresentadores (Ana e Lucas), partes conceituais e chamadas finais.
-- Vozes: prompts para ElevenLabs usando a conversão do roteiro em falas, com marcações de entonação e pausas.
-- Artes: prompts para Gemini para gerar capas (várias variações).
-- Edição: importação do áudio sintetizado no CapCut para equalização, adição de trilha sonora e cortes finais.
+O processo de desenvolvimento envolveu a concepção da ideia, design de arte e áudio, e implementação de mecânicas:
+
+1. Concepção da Ideia: A inspiração surgiu após uma aula sobre criação de personagens pixelados no Piskelapp, onde o personagem criado lembrava a Eva do filme Wall-E. O grupo decidiu focar na coleta de lixo em um cenário de devastação ambiental.
+2. Desenvolvimento Visual e Sonoro: O design gráfico buscou um ambiente impactante. Os backgrounds foram trocados e ajustados via Copilot Design para refletir os estágios de devastação. A trilha sonora foi selecionada no Suno para ser envolvente e complementar o jogo.
+3. Implementação das Mecânicas: O jogo foi desenvolvido em Unity usando C#. Scripts foram criados para controlar o jogador (movimento e pulo duplo limitado), gerenciar a coleta de itens e introduzir obstáculos (plataformas que caem, serras).
+4. Resolução de Problemas: Desafios cruciais incluíram a correção de um erro de código na coleta de itens, o ajuste da lógica para limitar o pulo duplo infinito, e a correção da detecção de colisão dos espinhos. Foi crucial implementar a lógica que exige que o jogador colete 10 lixos para avançar para o próximo nível.
 
 
 ## 🛠️ Instruções de execução
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
+O jogador controla Garby, que pode se mover, pular sobre plataformas e evitar obstáculos. A progressão dos níveis é gradual, desafiando as habilidades do jogador.
 
-- 🤖 1. Use os prompts de roteiro para geração do roteiro `ChatGPT`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt para gerar a síntese de voz no `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `Gemini`
+🤖 1. Objetivo Principal: Coletar lixo espalhado pelos níveis. O jogador deve acumular 10 lixos para passar de fase. 
+🤖 2. Progressão de Níveis: Os níveis introduzem gradualmente novas mecânicas e obstáculos: *   
+Nível 1 (Tutorial): Coleta de caixas de suco, familiarizando o jogador com os controles. *   
+Nível 2: Introdução dos primeiros obstáculos (espinhos) enquanto coleta latinhas. *   
+Nível 3: Adição de plataformas que se desmancham/caem, exigindo mais precisão nos pulos. *  
+Nível 4: Um nivel mais dificil para testar as habilidades desviando dos espinhos.*
+Nível 5: Introdução de serras móveis (que se movem da direita para a esquerda). *
+Nível 6: O nível mais dificil do jogo sendo o ultimo, com a junção das serras móveis e espinhos menores para maior dificuldade. *
+🤖 3. Fim de Jogo: A tela de Fim de Jogo é exibida se o personagem colidir com espinhos ou serras. Após completar todos os níveis, o jogador é recompensado com uma tela de conclusão.
+
 
 ## 👨‍💻 Expert
 
